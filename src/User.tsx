@@ -3,7 +3,8 @@
 import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
 
 const Info = {
-    name: "Aamir Khan",
+    // name: "Aamir Khan",
+    name: "TechnoSolz",
     stack: ["Software Developer", "Full Stack Web Developer","Flutter Developer","Python Developer"],
     bio: "I am a distinguished software developer with a specialization in developing sophisticated, scalable solutions and delivering premium web applications. My focus is on providing exceptional IT services that go beyond client expectations. I invite you to connect and collaborate to achieve extraordinary results."
 }

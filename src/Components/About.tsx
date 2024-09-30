@@ -1,10 +1,8 @@
-import { Button, useMatches } from "@mantine/core";
+import { useMatches } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
-import { IconDownload } from "@tabler/icons-react";
 import Typewriter from "typewriter-effect";
 import { Info } from "../User";
 import ResumeViewer from "./ResumeViewer";
-import { NeonGradientCard } from "./magicui/neon-gradient-card";
 import Particles from "./magicui/particles";
 const About = () => {
   const [opened, { open, close }] = useDisclosure(false);
@@ -53,7 +51,7 @@ const About = () => {
           <div className="text-textColor text-xl w-[90%] text-justify my-8 lg-mx:my-0 font-semibold lg-mx:text-base sm-mx:text-sm xs-mx:text-xs">
             {Info.bio}
           </div>
-          <div className="flex gap-3">
+        { /*  <div className="flex gap-3">
             <Button
               onClick={open}
               className="!text-bgColor !w-fit"
@@ -75,21 +73,10 @@ const About = () => {
             >
               Download
             </Button>
-          </div>
+              </div> */}
         </div>
 
-        <div
-          className="h-fit flex justify-center items-center  rounded-full bs:mr-10 w-fit"
-          id="photo"
-        >
-          <NeonGradientCard className="w-[325px] h-[325px] lg-mx:w-64 lg-mx:h-64 xsm-mx:w-56 xsm-mx:h-56 items-center justify-center text-center">
-            <img
-              src={`${process.env.PUBLIC_URL}/Icons/pic.png`}
-              className="w-full h-full rounded-full "
-              alt="profile"
-            />
-          </NeonGradientCard>
-        </div>
+       
       </div>
       <ResumeViewer opened={opened} close={close} />
     </>
