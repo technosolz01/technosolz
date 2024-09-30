@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/techno/static/css/main.0ceb23be.css",
+    "main.js": "/techno/static/js/main.5ddcda1c.js",
+    "static/media/pdf.worker.min.mjs": "/techno/static/media/pdf.worker.min.251d69a696d4b789725e.mjs",
+    "index.html": "/techno/index.html",
+    "main.0ceb23be.css.map": "/techno/static/css/main.0ceb23be.css.map",
+    "main.5ddcda1c.js.map": "/techno/static/js/main.5ddcda1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ceb23be.css",
+    "static/js/main.5ddcda1c.js"
+  ]
+}
