@@ -1,6 +1,6 @@
 
 // @tabler-icons-react.d.ts
-import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
+import { IconBrandFacebook, IconBrandGithub, IconBrandInstagram, IconBrandLinkedin } from "@tabler/icons-react";
 
 const Info = {
     // name: "Aamir Khan",
@@ -101,7 +101,7 @@ const ExperienceInfo = [
         skills: ["Flutter", "Dart", "Firebase", "REST API", "Git"]
     }
 ]
-const socialLinks = [{link:"https://github.com/aamirk1", icon:IconBrandGithub}, {link:"https://in.linkedin.com/in/aamirkhan131", icon:IconBrandLinkedin},];
+const socialLinks = [{link:"https://github.com/aamirk1", icon:IconBrandGithub}, {link:"https://in.linkedin.com/in/technosolz", icon:IconBrandLinkedin}, {link:"https://instagram.com/technosolz01", icon:IconBrandInstagram}, {link:"https://facebook.com/technosolz01", icon:IconBrandFacebook}];
    
 const Slugs = [
     "typescript",
