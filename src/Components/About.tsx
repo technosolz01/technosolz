@@ -1,4 +1,4 @@
-import { useMatches } from "@mantine/core";
+import { Button, useMatches } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import Typewriter from "typewriter-effect";
 import { Info } from "../User";
@@ -17,7 +17,7 @@ const About = () => {
       <div
         data-aos="zoom-out-up"
         data-aos-duration="800"
-        className="mt-28 flex relative overflow-hidden justify-around items-center font-mono px-10 py-10 sm-mx:px-4 xs-mx:px-2 xs-mx:py-4 h-fit lg-mx:justify-between bs-mx:flex-wrap bs-mx:flex-col-reverse bs-mx:!overflow-visible bs-mx:gap-6 md-mx:px-6"
+        className="mt-28 flex relative overflow-hidden justify-around items-center font-mono px-10 py-10 sm-mx:px-2 xs-mx:px-1 xs-mx:py-4 h-fit lg-mx:justify-between bs-mx:flex-wrap bs-mx:flex-col-reverse bs-mx:!overflow-visible bs-mx:gap-6 md-mx:px-6"
         id="bg"
       >
         <Particles
@@ -29,15 +29,15 @@ const About = () => {
           color="#64FFDA"
           refresh
         />
-        <div className="ml-10 sm-mx:ml-0 xs-mx:ml-0 xsm-mx:ml-0 w-3/5 flex flex-col lg-mx:gap-3 bs-mx:items-center ">
+        <div className="ml-10 sm-mx:ml-0 xs-mx:ml-0 xsm-mx:ml-0 w-3/4 flex flex-col lg-mx:gap-3 bs-mx:items-center ">
           <div className="text-primaryColor text-3xl lg-mx:text-2xl xs-mx:text-xl xsm-mx:text-lg">
-            Hi, I'm
-          </div>
-          <div className="text-white text-[4.25rem] font-extrabold lg-mx:text-5xl sm-mx:text-4xl xs-mx:text-3xl xsm-mx:text-[27px]">
+          Welcome to
+          </div> 
+          <div className="text-white text-[3.25rem] font-extrabold lg-mx:text-3xl sm-mx:text-3xl xs-mx:text-2xl xsm-mx:text-[25px]">
             {Info.name}
           </div>
-          <div className="text-white text-4xl flex font-semibold lg-mx:text-[27px] sm-mx:text-2xl xs-mx:text-xl xsm-mx:text-lg">
-            I'm a &nbsp;
+          <div className="text-white text-2xl flex font-semibold lg-mx:text-[25px] sm-mx:text-xl xs-mx:text-sm xsm-mx:text-sm">
+          Trusted provider of &nbsp;
             <span className="text-primaryColor">
               <Typewriter
                 options={{
@@ -51,7 +51,7 @@ const About = () => {
           <div className="text-textColor text-xl w-[90%] text-justify my-8 lg-mx:my-0 font-semibold lg-mx:text-base sm-mx:text-sm xs-mx:text-xs">
             {Info.bio}
           </div>
-        { /*  <div className="flex gap-3">
+         <div className="flex gap-3">
             <Button
               onClick={open}
               className="!text-bgColor !w-fit"
@@ -61,7 +61,7 @@ const About = () => {
             >
               Resume
             </Button>
-            <Button
+            {/* <Button
               component="a"
               href={`${process.env.PUBLIC_URL}/pyResume.pdf`}
               download={Info.name}
@@ -72,8 +72,8 @@ const About = () => {
               rightSection={<IconDownload size={20} />}
             >
               Download
-            </Button>
-              </div> */}
+            </Button> */}
+              </div> 
         </div>
 
        

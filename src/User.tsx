@@ -5,8 +5,8 @@ import { IconBrandFacebook, IconBrandGithub, IconBrandInstagram, IconBrandLinked
 const Info = {
     // name: "Aamir Khan",
     name: "TechnoSolz",
-    stack: ["Software Developer", "Full Stack Web Developer","Flutter Developer","Python Developer"],
-    bio: "I am a distinguished software developer with a specialization in developing sophisticated, scalable solutions and delivering premium web applications. My focus is on providing exceptional IT services that go beyond client expectations. I invite you to connect and collaborate to achieve extraordinary results."
+    stack: ["Software Development", "Web Development","Mobile App Development","Website Development"],
+    bio: "At Technosolz, we are passionate about transforming ideas into innovative software solutions. Founded by a team of dedicated professionals, our missionis to empower businesses with cutting-edge technology that drives effi ciencyand growth. With years of experience in software development, we specialize incustom applications, web development, and mobile solutions tailored to meetthe unique needs of our clients. Our approach is built on collaboration, transparency, and a deep understandingof our clients' goals. We take the time to listen and engage with our partners,ensuring that every project aligns with their vision. Our agile development process allows us to adapt quickly to changes and deliver high-quality productson time. At Technosolz, we believe in the power of technology to make a difference. Whether you're a startup looking to build your first app or an established enterprise seeking to enhance your digital presence, we are here to help you navigate the ever-evolving tech landscape. Join us on this journey, and let’s create something amazing together!"
 }
 const ProjectInfo = [
     {

@@ -20,7 +20,7 @@ const HomePage = () => {
     return (
         
         <div className={`min-h-[100vh] ${loading?"flex":""} items-center overflow-hidden justify-center`}>
-            { loading!==true ?<>
+            {/* { loading!==true ?<> */}
                 <Header />
             <About />
             <Projects />
@@ -30,8 +30,8 @@ const HomePage = () => {
             <Footer />
             <Mail />
             <Social />
-            </>:
-            <Loader />}
+            {/* </>:
+            <Loader />} */}
         </div>
     )
 }

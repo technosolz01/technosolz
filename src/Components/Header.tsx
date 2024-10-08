@@ -1,8 +1,8 @@
-import { IconHexagonLetterA } from "@tabler/icons-react";
-import SideBar from "./SideBar";
-import {useMediaQuery} from "@mantine/hooks";
 import { em } from "@mantine/core";
+import { useMediaQuery } from "@mantine/hooks";
+import { IconHexagonLetterA } from "@tabler/icons-react";
 import { useEffect, useState } from "react";
+import SideBar from "./SideBar";
 
 const links = ["About", "Work", "Experience", "Skills", "Contact"];
 const navLinks = (col:Boolean, clicked:any) => {
@@ -48,4 +48,5 @@ const Header = () => {
 };
 
 export default Header;
-export {navLinks};
+export { navLinks };
+

@@ -1,5 +1,3 @@
-import { IconBrandGithub, IconBrandLinkedin } from "@tabler/icons-react";
-import { link } from "fs";
 import { socialLinks } from "../User";
 
 const Social=()=>{
@@ -11,7 +9,7 @@ const Social=()=>{
     })
 
 
-    return <div className="flex md-mx:hidden text-textColor items-center gap-10 fixed bottom-40 -left-32 rotate-90">
+    return <div className="flex md-mx:hidden text-textColor items-center gap-10 fixed bottom-40 -left-44 rotate-90">
     {socialIcons}
     <hr className="border-[2px] w-40 rounded-full  bg-textColor border-textColor" />
 </div>
