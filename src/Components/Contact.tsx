@@ -1,7 +1,7 @@
-import { useState } from "react";
-import FloatingInput from "./FloatingInput";
 import { Button, useMatches } from "@mantine/core";
 import { IconArrowRight, IconTopologyStar3 } from "@tabler/icons-react";
+import { useState } from "react";
+import FloatingInput from "./FloatingInput";
 
 const Contact = () => {
     const form={
@@ -25,7 +25,7 @@ const Contact = () => {
       <h1 className="text-4xl font-bold text-center sm-mx:text-3xl xs-mx:text-2xl mb-10 text-white">
         <span className="text-primaryColor">05. &nbsp;</span>Contact
       </h1>
-      <div data-aos="flip-left" data-aos-duration="800" className="w-[70%] lg-mx:w-full shadow-[0_0_10px_0_#64FFDA50] m-auto flex flex-col gap-6 border border-primaryColor rounded-3xl p-8 sm-mx:p-4">
+      <div data-aos="flip-left" data-aos-duration="800" className="w-[50%] lg-mx:w-full shadow-[0_0_10px_0_#64FFDA50] m-auto flex flex-col gap-6 border border-primaryColor rounded-3xl p-8 sm-mx:p-4">
         <div className=" text-3xl text-white font-semibold sm-mx:text-2xl xs-mx:text-xl">Let's Contact<IconTopologyStar3 className="text-primaryColor h-10 w-10 sm-mx:h-7 sm-mx:w-7" />  </div>
         <FloatingInput id="name" name="Name" value={formData.name} />
         <FloatingInput id="email" name="Email" value={formData.email} />
