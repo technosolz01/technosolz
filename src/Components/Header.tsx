@@ -3,21 +3,22 @@ import { useMediaQuery } from "@mantine/hooks";
 import { IconHexagonLetterA } from "@tabler/icons-react";
 import { useEffect, useState } from "react";
 import SideBar from "./SideBar";
+import { Link } from "react-router-dom";
 
-const links = ["About", "Work", "Experience", "Skills", "Contact"];
+const links = ["About", "Work", "Experience", "Skills", "Contact",'Services'];
 const navLinks = (col:Boolean, clicked:any) => {
   const handleClick = ()=>{
     if(clicked)clicked();
   }
   return links.map((link, index) => {
     return (
-      <a key={index} onClick={handleClick}
+      <Link key={index} onClick={handleClick}
         className={`${col?'flex flex-col items-center ' : ''}text-textColor text-lg font-mono hover:text-primaryColor`}
-        href={`#${link}`}
+        to={`/${link}`}
       >
         <span className="text-primaryColor">0{index + 1}. </span>
         {link}
-      </a>
+      </Link>
     );
   });
 };
