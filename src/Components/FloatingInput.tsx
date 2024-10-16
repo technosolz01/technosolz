@@ -15,7 +15,7 @@ const FloatingInput = (props: any) => {
           placeholder=""
           name={props.id}
           id={props.id}
-          rows={4}
+          rows={2}
           className="block px-2.5 pb-2.5 pt-4 w-full text-xl sm-mx:text-lg xs-mx:text-base text-white bg-transparent rounded-xl border border-textColor appearance-none hover:shadow-[0_0_8px_0_#64FFDA70] focus:outline-none focus:ring-0 focus:border-primaryColor peer"
         ></textarea>
       )}
