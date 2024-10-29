@@ -1,6 +1,6 @@
 
 // @tabler-icons-react.d.ts
-import { IconBrandFacebook, IconBrandGithub, IconBrandInstagram, IconBrandLinkedin } from "@tabler/icons-react";
+import { IconBrandFacebook, IconBrandGithub, IconBrandInstagram, IconBrandLinkedin, IconMail, IconMapPin, IconPhone } from "@tabler/icons-react";
 
 const Info = {
     // name: "Aamir Khan",
@@ -101,36 +101,23 @@ const ExperienceInfo = [
         skills: ["Flutter", "Dart", "Firebase", "REST API", "Git"]
     }
 ]
-const socialLinks = [{link:"https://github.com/aamirk1", icon:IconBrandGithub}, {link:"https://in.linkedin.com/in/technosolz", icon:IconBrandLinkedin}, {link:"https://instagram.com/technosolz01", icon:IconBrandInstagram}, {link:"https://facebook.com/technosolz01", icon:IconBrandFacebook}];
-   
-const Slugs = [
-    "typescript",
-    "dart",
-    "java",
-    "react",
-    "flutter",
-    "android",
-    "html5",
-    "css3",
-    "nodedotjs",
-    "express",
-    "nextdotjs",
-    "postgresql",
-    "firebase",
-    "nginx",
-    "vercel",
-    // "testinglibrary",
-    // "jest",
-    // "cypress",
-    // "docker",
-    "git",
-    "jira",
-    "github",
-    "gitlab",
-    "visualstudiocode",
-    "androidstudio",
-    // "sonarqube",
-    // "figma",
+const socialLinks = [ {link:"https://in.linkedin.com/in/technosolz", icon:IconBrandLinkedin}, {link:"https://instagram.com/technosolz01", icon:IconBrandInstagram}, {link:"https://facebook.com/technosolz01", icon:IconBrandFacebook}, {link:"https://github.com/aamirk1", icon:IconBrandGithub}];
+const officialInfo = [
+    { link: "/", title: "502 Sunshine Park Mumbai, Maharashtra 401209", icon: <IconMapPin /> }, // Add an icon if needed
+    { link: "mailto:technosolz01@gmail.com", title: "technosolz01@gmail.com", icon: <IconMail /> },
+    { link: "tel:+919893479433", title: "+91 9893479433", icon: <IconPhone /> },
+    { link: "tel:+919893479433", title: "+91 9893479433", icon: <IconPhone /> },
   ];
-export { Info, ProjectInfo, SkillInfo, ExperienceInfo, socialLinks, Slugs };
+  const FooterNavLinks = [
+    { link: "/link10", title: "Home" },
+    { link: "/link11", title: "About" },
+    { link: "/link12", title: "Technologies" },
+  ];
+  const FooterServiceLinks = [
+    { link: "/link10", title: "Web Development" },
+    { link: "/link11", title: "App Development" },
+    { link: "/link12", title: "HOsting Support" },
+  ];
+
+export { Info, ProjectInfo, SkillInfo, ExperienceInfo, socialLinks, officialInfo, FooterNavLinks, FooterServiceLinks };
 

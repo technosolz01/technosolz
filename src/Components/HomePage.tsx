@@ -28,8 +28,8 @@ const HomePage = () => {
             <Experience />
             <Contact />
             <Footer />
-            <Mail />
-            <Social />
+            {/* <Mail />
+            <Social /> */}
             {/* </>:
             <Loader />} */}
         </div>
